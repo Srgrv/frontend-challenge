@@ -26,8 +26,9 @@ export function useCats() {
       setCats((prevCats) => [...prevCats, ...newCats]);
     } catch (error) {
       console.log("Ошибка загрузки котят:", error);
+    } finally {
+      setIsLoading(false);
     }
-    setIsLoading(false);
   }, []);
 
   useEffect(() => {
