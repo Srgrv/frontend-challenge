@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const menuItems = [
-  { text: "Все котики", width: "120px", link: "/frontend-challenge/" },
+  { text: "Все котики", width: "120px", link: "/" },
   {
     text: "Любимые котики",
     width: "173px",
-    link: "/frontend-challenge/favorites",
+    link: "/favorites",
   },
 ];
 
