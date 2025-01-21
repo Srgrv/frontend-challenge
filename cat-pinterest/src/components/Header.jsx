@@ -8,7 +8,7 @@ const menuItems = [
 
 export const Header = () => {
   return (
-    <header className="pl-[62px] pr-[62px] h-16 bg-[#2196F3] flex text-white font-roboto font-normal text-[14px] leading-[21px] tracking-[0.25px]">
+    <header className="pl-[62px] pr-[62px] h-16 bg-[#2196F3] flex text-white font-roboto font-normal text-[14px] leading-[21px] tracking-[0.25px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.24)]">
       {menuItems.map((item, index) => (
         <Link
           to={item.link}
